@@ -355,11 +355,11 @@ body {
 	cursor: pointer
 }
 .providence .slider .slick-arrow.slick-prev {
-	background: url("../../img/sl-arrow-l.png") 0 0/100% no-repeat;
+	background: url("../img/sl-arrow-l.png") 0 0/100% no-repeat;
 	left: 0
 }
 .providence .slider .slick-arrow.slick-next {
-	background: url("../../img/sl-arrow-r.png") 0 0/100% no-repeat;
+	background: url("../img/sl-arrow-r.png") 0 0/100% no-repeat;
 	right: 0
 }
 .providence .slider__item {
@@ -779,7 +779,9 @@ body {
 		overflow-y: hidden;
 	}
 	.header__menu{
-		display: none;
+		position: absolute;
+		left: -100%;
+		transition: 0.8s ease all 0s;
 	}
 	.header__menu.active{
 		display: block;
