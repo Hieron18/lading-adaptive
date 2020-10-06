@@ -526,7 +526,7 @@ body {
 	color: #fff;
 	background-color: #267df4;
 	border-radius: 30px;
-	padding: 15px 65px 15px 65px;
+	padding: 15px 55px 15px 55px;
 }
 .purchase__button.background a{
 	transition: 0.8s ease all 0s;
@@ -781,9 +781,9 @@ body {
 	.header__menu{
 		position: absolute;
 		left: -100%;
-		transition: 0.8s ease all 0s;
 	}
 	.header__menu.active{
+		transition: 0.8s ease all 0s;
 		display: block;
 		position: fixed;
 		z-index: 20;
@@ -943,20 +943,21 @@ body {
 	}
 	.letter .letter__block{
 		text-align: center;
-		margin: 35px 0px 0px 20px;
+		margin: 35px 0px 0px 0px;
 	}
 	.caption .caption_word{
 		font-size: 14px;
 		padding: 0px 5px 40px 10px;
 	}
 	.purchase__window span{
-		padding: 15px 20px 15px 20px;
-		font-size: 14px;
+		padding: 15px 8px 15px 8px;
+		font-size: 13px;
 	}
 	.purchase__window{
-		width: 215px;
+		width: 160px;
 	}
 	.purchase__head{
+		justify-content: center;
 		font-size: 28px;
 	}
 	.providence .providence__content{
@@ -993,9 +994,10 @@ body {
 		width: 125px;
 	}
 	.caption .caption__head{
-		font-size: 28px;
-		padding: 0px 0px 50px 10px;
-    	text-align: unset;
+		font-size: 30px;
+		padding: 0px 0px 30px 10px;
+		white-space: pre-line;
+		justify-content: center;
 	}
 	.caption .caption__block .caption__head{
 		text-align: center;
@@ -1023,6 +1025,7 @@ body {
 		padding: 0px 5px 0px 10px;
 	}
 	.caption .caption__content_protected{
+		text-align: center;
 		margin: 0px 0px 0px 0px;
 	}
 	.everywhere .everywhere__partners{
@@ -1034,5 +1037,17 @@ body {
 	}
 	.letter .letter__text{
 		font-size: 16px;
+	}
+	.protected .protected__button .button__text_protected{
+		padding: 0px 0px 0px 0px;
+	}
+	.protected .protected__button{
+		justify-content: center;
+	}
+	.everywhere .everywhere__block{
+		justify-content: center;
+	}
+	.purchase__content{
+		text-align: center;
 	}
 }
