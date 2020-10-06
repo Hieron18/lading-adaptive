@@ -49,13 +49,13 @@ body {
 	max-width: 1920px;
 	height: 100vh;
 	position: relative;
-	background: url("../../img/background.png") 0 0/100% 100% no-repeat;
+	background: url("../img/background.png") 0 0/100% 100% no-repeat;
 }
 .header__content {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 45px 215px 70px 215px
+	padding: 45px 215px 45px 215px
 }
 .header__img{
 	position: absolute;
